@@ -1,0 +1,32 @@
+services:
+  compdf-infra:
+    extends:
+      file: docker-compose.yml
+      service: compdf-infra
+
+  compdf-app:
+    extends:
+      file: docker-compose.yml
+      service: compdf-app
+
+  compdf-server:
+    extends:
+      file: docker-compose.yml
+      service: compdf-server
+    volumes:
+      - ./configs:/app/configs
+      - ./data/server-storage:/app/storage
+      - compdf_updater_socket:/run/compdf-updater
+
+volumes:
+  compdf_output:
+  compdf_redis_data:
+  compdf_pdf_data:
+  compdf_mysql_data:
+  compdf_rustfs_data:
+  compdf_updater_socket:
+    name: compdf_updater_socket
+
+networks:
+  compdf-internal:
+    driver: bridge

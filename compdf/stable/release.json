@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "version": "5.0.0",
+  "channel": "stable",
+  "status": "active",
+  "minimumVersion": "4.2.0",
+  "minimumUpdaterVersion": "0.1.0-dev",
+  "releasedAt": "2026-09-20T05:56:31Z",
+  "expiresAt": "2026-10-20T05:56:31Z",
+  "maintenanceRequired": true,
+  "infraUpgradeRequired": false,
+  "images": {
+    "app": {
+      "name": "localhost:5000/compdf-app",
+      "tag": "5.0.0",
+      "digest": "sha256:02720ee23a1eabdbbfd8faece90e7669c5b9f2c897665b143bcb1865628e8b7c"
+    },
+    "server": {
+      "name": "localhost:5000/compdf-server",
+      "tag": "5.0.0",
+      "digest": "sha256:9fb0fa5535387c59104ab1e2b7bf895777aca432f5abda6112b9d01e660e51e2"
+    }
+  },
+  "migration": {
+    "from": "4.1.1",
+    "to": "4.1.1",
+    "required": false
+  },
+  "rollback": {
+    "application": true,
+    "database": false,
+    "requiresBackupRestore": false
+  },
+  "compose": {
+    "path": "compose.release.yml",
+    "sha256": "7f9164f70d043041ce2843e6d79a1235c0b615fead4813f17336e8931f9f111d",
+    "size": 627
+  },
+  "checksums": {
+    "path": "checksums.txt",
+    "sha256": "b04cdb05282a6ab32d1443721e0300c8c2b5428087024a92fb8af999c2705e03",
+    "size": 86
+  },
+  "releaseNotes": "Local 5.0.0 acceptance release from 4.2.0: hide the PDF to PDF/A tool and verify approved install plus application rollback.",
+  "knownIssues": []
+}
