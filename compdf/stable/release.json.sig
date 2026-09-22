@@ -2,6 +2,6 @@
   "schemaVersion": 1,
   "algorithm": "Ed25519",
   "keyId": "runtime-test",
-  "manifestSha256": "3f75ffd3b2f127f33323b2f38365f0e3cdc8a735952c0026bb5ca55cd47d3246",
-  "signature": "fQVVnGncquzQWjlOhjurWmLv3e9P5R5yWBmkeZxVnhz5L7IwolYuHgsI4b/cJc82P84Sz1JCbg6MiB0kkhNOCA=="
+  "manifestSha256": "7240168891637e78d6a4c594b27344daa8b3e1349b7e7207bc906805cecd8645",
+  "signature": "1dc0t2RLzUte2JvXl89uMQUfSzc/3tasBkRdUBPdqq4Z6dGv9h6dsmMs+MTBRnAZ+bNHFZbVksMSh0aFikeKDg=="
 }

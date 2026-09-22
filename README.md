@@ -18,11 +18,10 @@ compdf/stable/checksums.txt
 ```
 
 The Ed25519 public key used for this test is in `release-public-key.txt`.
-The manifest references the Docker Hub images:
+The currently published acceptance manifest references the local test registry:
 
-- `compdfkit/compdf-app:5.0.0`
-- `compdfkit/compdf-server:5.0.0`
+- `localhost:5000/compdf-app:5.0.0`
+- `localhost:5000/compdf-server:5.0.0`
 
-Images are pinned by the digests in `release.json`; the release metadata is
-still a smoke-test publication, not a claim that the images are public to every
-Docker Hub account.
+Images are pinned by the digests in `release.json`; this is a local acceptance
+publication and is not a public Docker Hub image release.
