@@ -11,12 +11,12 @@
   "infraUpgradeRequired": false,
   "images": {
     "app": {
-      "name": "localhost:5000/compdf-app",
+      "name": "compdfkit/compdf-app",
       "tag": "5.0.0",
       "digest": "sha256:02720ee23a1eabdbbfd8faece90e7669c5b9f2c897665b143bcb1865628e8b7c"
     },
     "server": {
-      "name": "localhost:5000/compdf-server",
+      "name": "compdfkit/compdf-server",
       "tag": "5.0.0",
       "digest": "sha256:9fb0fa5535387c59104ab1e2b7bf895777aca432f5abda6112b9d01e660e51e2"
     }
