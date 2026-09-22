@@ -41,6 +41,6 @@
     "sha256": "b04cdb05282a6ab32d1443721e0300c8c2b5428087024a92fb8af999c2705e03",
     "size": 86
   },
-  "releaseNotes": "Local 5.0.0 acceptance release from 4.2.0: hide the PDF to PDF/A tool and verify approved install plus application rollback.",
+  "releaseNotes": "Local 5.0.0 acceptance release from 4.2.0: hide the PDF to PDF/A tool and verify approved install plus application rollback. \n 你是谁？我是谁？我是nd",
   "knownIssues": []
 }
